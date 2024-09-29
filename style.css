@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header-sec1 {
+    background-color: #fff;
+    height: 7rem;
+    display: flex;
+}
+.header-logo {
+    height: 6rem;
+    width: 6rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+.sec1-logo {
+    height: 6rem;
+    width: 6rem;
+    background-image: url("logo.png");
+    background-size: cover;
+}
+.brand-name {
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+.header-sec2 {
+    height: 3.5rem;
+    background-color: #c22504;
+    margin-top: 1rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 1.5rem;
+    justify-content: space-evenly;
+}
+.home-btn {
+    text-decoration: none;
+    color: white;
+}
+.content {
+    height: 25rem;
+    background-color: #0469c2;
+}
+.dept-img {
+    height: 25rem;
+}
+.dept-img-src {
+    height: 25rem;
+    background-image: url("civil-dept-img.jpg");
+    background-size: cover;
+}
