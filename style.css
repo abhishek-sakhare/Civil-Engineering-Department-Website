@@ -2,10 +2,16 @@
     margin: 0;
     padding: 0;
 }
+header {
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+}
 .header-sec1 {
     background-color: #fff;
-    height: 7rem;
+    height: 8rem;
     display: flex;
+    
 }
 .header-logo {
     height: 6rem;
@@ -26,7 +32,6 @@
 .header-sec2 {
     height: 3.5rem;
     background-color: #c22504;
-    margin-top: 1rem;
     color: white;
     display: flex;
     justify-content: center;
@@ -34,14 +39,15 @@
     font-weight: 700;
     font-size: 1.5rem;
     justify-content: space-evenly;
+    
 }
-.home-btn {
+.hvr {
+     color: white;
     text-decoration: none;
-    color: white;
 }
 .content {
     height: 25rem;
-    background-color: #0469c2;
+    margin-top: 11.3rem;
 }
 .dept-img {
     height: 25rem;
@@ -50,4 +56,8 @@
     height: 25rem;
     background-image: url("civil-dept-img.jpg");
     background-size: cover;
+}
+.hvr:hover {
+    cursor: pointer;
+    opacity:0.75;
 }
