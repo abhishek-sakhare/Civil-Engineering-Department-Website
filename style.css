@@ -45,7 +45,7 @@ header {
      color: white;
     text-decoration: none;
 }
-.content {
+.content-section {
     height: 25rem;
     margin-top: 11.3rem;
 }
@@ -59,5 +59,13 @@ header {
 }
 .hvr:hover {
     cursor: pointer;
-    opacity:0.75;
+    color: orange;
+}
+.homepage-content {
+    display: flex;
+}
+.homepage-sidebar {
+    height: 100rem;
+    width: 240rem;
+    
 }
