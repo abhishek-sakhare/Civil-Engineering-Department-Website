@@ -44,8 +44,25 @@
     cursor: pointer;
     color: orange;
 }
+.icons2 {
+    display: flex;
+    color: #232323;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30rem;
+}
+.in2 {
+    color: #232323;
+    size: 4rem;
+    border:1px solid black;
+    border-radius:5px;
+    padding:10px;
 
-
+}
+.in2:hover {
+    background-color: #c22504;
+}
 
 .homepage-content {
     height: 80rem;
@@ -78,6 +95,8 @@
 .con-history:hover, .con-mission:hover, .con-corevalue:hover {
     height: 17rem;
     width: 82rem;
+    transition: 0.15s ease;
+
 }
 
 .his-heading, .mis-heading, .cor-heading {
@@ -119,10 +138,72 @@
     
 
 }
+.content-sec3 {
+    height: 25rem;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.sec3-heading {
+    font-size: 1.5rem;
+    color:white;
+    font-weight: 700;
 
+}
+.sec3-img {
+    display: flex;
+    gap: 3rem;
+}
 
+.hod-img {
+    height: 20rem;
+    width: 20rem;
+    background-image: url("hod-img.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+}
+.tilotama-img {
+    height: 20rem;
+    width: 20rem;
+    background-image: url("tilotama-img.png");
+    background-size: cover;
+    background-color: #232323;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+}
 
+.hod-name, .tilotama-name {
+    opacity: 0;
+    z-index: 2;
+    color: white;
+    font-weight: 700;
+    font-size: 1rem;
+    text-shadow: #232323;
+}
 
+.hod-img:hover{
+    opacity: 0.75;
+    cursor: pointer;
+}
+.tilotama-img:hover {
+    opacity: 0.75;
+    cursor: pointer;
+}
+
+.hod-img:hover .hod-name { 
+    opacity: 1;
+    filter: none;
+}
+.tilotama-img:hover .tilotama-name {
+    opacity: 1;
+    filter: none;
+}
 
 .head{
     display:flex;
@@ -377,4 +458,8 @@ a:hover{
   .aditya{
     margin-left:15px;
 
+  }
+
+  .con-tent {
+    height: 30rem;
   }
