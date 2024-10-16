@@ -3,6 +3,7 @@ let homePageContent = document.querySelector(".homepage-content");
 let noOfStudent = document.querySelector(".num-of-student");
 let noOfFaculty = document.querySelector(".num-of-faculty");
 let mission = document.querySelector(".mis-info");
+let core = document.querySelector(".core-info");
 let count = 0;
 let countdownStarted = false;
 
