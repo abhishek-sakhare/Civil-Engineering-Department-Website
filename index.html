@@ -6,6 +6,8 @@
     <title>Civil Engineering Department Website</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
     <body>
         <header>
@@ -50,7 +52,7 @@
                 <div class="dept-img-src"></div>
             </div>
             <div class="content-sec1">
-                <div class="con-history">
+                <div class="con-history" data-aos="fade-right">
                     <div class="his-heading">
                         <h1>History</h1>
                     </div>
@@ -60,7 +62,7 @@
                         The department offers undergraduate, postgraduate, and doctoral programs, preparing students to address complex engineering challenges in fields such as structural engineering, environmental engineering, geotechnical engineering, transportation, and water resources. The Civil Engineering Department has consistently aimed to integrate practical knowledge with theoretical foundations, fostering a learning environment that encourages innovation and collaboration.
                     </p>    
                 </div>
-                <div class="con-mission">
+                <div data-aos="fade-left" class="con-mission">
                     <div class="mis-heading">
                         <h1>Mission</h1>
                     </div>
@@ -74,7 +76,7 @@
                         Contribute to sustainable development by preparing graduates to design and implement solutions that are environmentally responsible and socially equitable.
                     </p>
                 </div>
-                <div class="con-corevalue">
+                <div class="con-corevalue" data-aos="fade-right">
                     <div class="cor-heading">
                         <h1>Core Values</h1>
                     </div>
@@ -88,7 +90,7 @@
                     </p>
                 </div>
             </div>
-            <div class="content-sec2">
+            <div class="content-sec2" id="number-counter">
                 <div class="con-sec2-info">
                     <div class="block1">
                         <div class="num-of-student" id="timer">0+</div>
@@ -222,5 +224,8 @@
             </div>
         </footer>
         <script src="script.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>
