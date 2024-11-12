@@ -104,12 +104,12 @@ html,body{
     animation: scrolling linear;
     animation-timeline: view(120px);
 }
-.con-history:hover, .con-mission:hover, .con-corevalue:hover {
+/* .con-history:hover, .con-mission:hover, .con-corevalue:hover {
     height: 17rem;
     width: 82rem;
     transition: 0.15s ease;
 
-}
+} */
 .his-heading, .mis-heading, .cor-heading {
     background-color: #c22504;
     border-top-left-radius: 25px;
