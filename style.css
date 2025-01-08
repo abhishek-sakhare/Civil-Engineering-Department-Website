@@ -85,7 +85,7 @@ html,body{
 .dept-img-src {
     height: 30rem;
     background-image: url("Homepage-img/civil-dept-img.jpg");
-    background-size: ;
+    background-size:cover;
 }
 
 .content-sec1 {
