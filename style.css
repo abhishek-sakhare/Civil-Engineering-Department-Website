@@ -5,7 +5,7 @@
 }
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+    background-color: #a8dadc;
 }
 html,body{
     height:100%;
@@ -29,7 +29,7 @@ html,body{
 .sec1-logo {
     height: 6rem;
     width: 6rem;
-    background-image: url("logo.png");
+    background-image: url("Homepage-img/logo.png");
     background-size: cover;
 }
 .brand-name {
@@ -75,43 +75,61 @@ html,body{
 }
 
 .homepage-content {
-    height: 80rem;
+    /* height: 100rem; */
+    display: flex;
+    flex-direction: column;
 }
 .dept-img {
     height: 30rem;
 }
 .dept-img-src {
     height: 30rem;
-    background-image: url("civil-dept-img.jpg");
-    background-size: cover;
+    background-image: url("Homepage-img/civil-dept-img.jpg");
+    background-size: ;
 }
 
 .content-sec1 {
     height: 60rem;
     display: flex;
-    flex-direction: column;
     gap: 3rem;
     justify-content: center;
     align-items: center;
 }
+.homepage-navbar {
+    background-color: #457b9d;
+    height: 100%;
+    width: 105%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    gap: 2rem;
+    
+    
+
+}
+.homepage-navbar a {
+    font-weight: 1000;
+    font-size: 1.5rem;
+    text-shadow: 0 0 2px white, 0 0 15px black;
+
+}
+.con-sec1-info{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-top: 2rem;
+}
 
 .con-history, .con-mission, .con-corevalue {
     height: 15rem;
-    width: 80rem;
     background-color: #e7e7e7;
     border-radius: 25px;
     box-shadow: 5px 10px 15px;
-    animation: scrolling linear;
-    animation-timeline: view(120px);
 }
-/* .con-history:hover, .con-mission:hover, .con-corevalue:hover {
-    height: 17rem;
-    width: 82rem;
-    transition: 0.15s ease;
-
-} */
 .his-heading, .mis-heading, .cor-heading {
-    background-color: #c22504;
+    padding-top: 0.5rem;
+    background-color: #457b9d;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     color: white;
@@ -131,9 +149,10 @@ html,body{
     align-items:center;
 }
 .con-sec2-info {
-    height: 5rem;
+    height: 7rem;
     width: 50rem;
-    background-color: #ebc495;
+    margin-bottom: 2rem;
+    background-color: #457b9d;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -142,6 +161,10 @@ html,body{
     font-weight: 700;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-radius: 10px;
+    color: white;
+}
+.num-of-student, .num-of-faculty{
+    font-size: 3rem;
 }
 .content-sec3 {
     height: 25rem;
@@ -693,4 +716,91 @@ li a{
 #footerbuttom a{
     color:#c22504;
     font-weight: bolder;
+}
+
+
+.workshop-content {
+    background-color: #dad7cd;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+.workshop-content h1{
+    margin-top: 2rem;
+    margin-left: 2.2rem;
+    font-size: 2.9rem;
+    
+}
+.work-row1 {
+    display: flex;
+    gap: 10rem;
+    margin-bottom: 2rem;
+}
+.work-box {
+    height: 5rem;
+    width: 50rem;
+    background-color: #a3b18a;
+    box-shadow: 5px 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    padding: 2rem;
+}
+.work-img1 {
+    margin-top: 2rem;
+    box-shadow: 5px 10px 10px;
+    border-radius: 5%;
+}
+.work-img2 {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    box-shadow: 5px 10px 10px;
+    border-radius: 7%;
+}
+.work-row2 {
+    background-color: #a3b18a;
+    width: 95%;
+    height: 30rem;
+    margin-left: 2.5rem;
+    margin-top: 1rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    font-size: 1.3rem;
+    box-shadow: 5px 10px 10px;
+}
+.work-row2 p {
+    margin-top: 3rem;
+}
+
+
+
+.research-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.arjuna-event {
+    height: 70rem;
+    width: 90%;
+    background-color: #08C2FF;
+    margin: 1rem;
+    padding: 2rem;
+    box-shadow: 5px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+.arjuna-event .arjuna-heading{
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.research-row {
+    display: flex;
+    font-size: 1.5rem;
+    gap: 2rem;
+    
 }

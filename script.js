@@ -15,7 +15,6 @@ function studentCounter () {
         countdownStarted = true;
 
         let countdown = setInterval(function() {
-            console.log(count);
             noOfStudent.innerText = `${count}+`;
             count++;
 
@@ -30,7 +29,6 @@ function facultyCounter () {
         countdownStarted2 = true;
 
         let countdown2 = setInterval(function() {
-            console.log(count2);
             noOfFaculty.innerText = `${count2}+`;
             count2++;
 
@@ -44,7 +42,6 @@ function facultyCounter () {
 
 let callback = (entries, observer) => {
     entries.forEach(entry => {
-        console.log(entry);
         if(entry.isIntersecting === true) {
 
             if(entry.target.id === 'number-counter') {
