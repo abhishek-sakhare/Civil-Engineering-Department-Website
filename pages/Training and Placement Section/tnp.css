@@ -5,7 +5,7 @@
 }
 body {
     font-family: Arial, sans-serif;
-    background-color: #a8dadc;
+    background-color: #457b9d;
 }
 html,body{
     height:100%;
@@ -155,14 +155,18 @@ html,body{
 }
 .container {
     max-width: 1200px;
-    margin: 0 auto;
+    margin-top:2rem;
+    margin-left: 10rem;
+    margin-bottom: 2rem;
     padding: 20px;
-    background-color: white;
+    background-color:#a8dadc;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 5px 10px 10px;
 }
 
 /* Program Info Section */
+
 .program-info {
     display: flex;
     justify-content: space-between;

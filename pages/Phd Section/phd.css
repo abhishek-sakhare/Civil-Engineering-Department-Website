@@ -5,7 +5,7 @@
 }
 body {
     font-family: Arial, sans-serif;
-    background-color: #a8dadc;
+    background-color:#457b9d;
 }
 html,body{
     height:100%;
@@ -152,6 +152,40 @@ html,body{
 }
 .in2:hover {
     background-color: #c22504;
+}
+.phd-content {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.research-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.arjuna-event {
+    height: 70rem;
+    width: 90%;
+    background-color:#a8dadc;
+    margin: 1rem;
+    padding: 2rem;
+    box-shadow: 5px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+.arjuna-event .arjuna-heading{
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.research-row {
+    display: flex;
+    font-size: 1.5rem;
+    gap: 2rem;
+    
 }
 
 #footer{

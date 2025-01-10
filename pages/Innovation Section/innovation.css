@@ -5,7 +5,7 @@
 }
 body {
     font-family: Arial, sans-serif;
-    background-color: #a8dadc;
+    background-color: #457b9d;
 }
 html,body{
     height:100%;
@@ -161,7 +161,7 @@ html,body{
 .arjuna-event {
     height: 70rem;
     width: 90%;
-    background-color: #08C2FF;
+    background-color:#a8dadc;
     margin: 1rem;
     padding: 2rem;
     box-shadow: 5px 10px 10px;

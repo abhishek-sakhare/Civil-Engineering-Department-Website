@@ -154,7 +154,7 @@ html,body{
     background-color: #c22504;
 }
 .workshop-content {
-    background-color: #dad7cd;
+    background-color: #457b9d;
     display: flex;
     flex-direction: column;
     gap: 4rem;
@@ -163,6 +163,7 @@ html,body{
     margin-top: 2rem;
     margin-left: 2.2rem;
     font-size: 2.9rem;
+    color: white;
     
 }
 .work-row1 {
@@ -173,7 +174,7 @@ html,body{
 .work-box {
     height: 5rem;
     width: 50rem;
-    background-color: #a3b18a;
+    background-color: #a8dadc;
     box-shadow: 5px 10px 10px;
     display: flex;
     justify-content: center;
@@ -195,7 +196,7 @@ html,body{
     border-radius: 7%;
 }
 .work-row2 {
-    background-color: #a3b18a;
+    background-color:#a8dadc;
     width: 95%;
     height: 30rem;
     margin-left: 2.5rem;
