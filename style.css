@@ -29,7 +29,7 @@ html,body{
 .sec1-logo {
     height: 6rem;
     width: 6rem;
-    background-image: url("Homepage-img/logo.png");
+    background-image: url("images/Homepage-img/logo.png");
     background-size: cover;
 }
 .brand-name {
@@ -84,7 +84,7 @@ html,body{
 }
 .dept-img-src {
     height: 30rem;
-    background-image: url("../../images/Homepage-img/civil-dept-img.jpg");
+    background-image: url("images/Homepage-img/civil-dept-img.jpg");
     background-size:cover;
 }
 
