@@ -166,7 +166,7 @@ html,body{
     justify-content: center;
 }
 .arjuna-event {
-    height: 70rem;
+    height: 80rem;
     width: 90%;
     background-color:#a8dadc;
     margin: 1rem;
@@ -186,6 +186,13 @@ html,body{
     font-size: 1.5rem;
     gap: 2rem;
     
+}
+.research-row p{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.research-row img{
+    box-shadow: 5px 10px 10px;
 }
 
 #footer{

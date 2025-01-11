@@ -191,6 +191,31 @@ html,body{
     font-size: 1.2rem;
     
 }
+.box1 img {
+    box-shadow: 3px 3px 1px black;
+  -webkit-box-shadow: 3px 3px 1px black;
+  -moz-box-shadow: 3px 3px 1px black;
+
+}
+.box2 img {
+    box-shadow: 3px 3px 1px black;
+  -webkit-box-shadow: 3px 3px 1px black;
+  -moz-box-shadow: 3px 3px 1px black;
+
+}
+.special {
+    width: 80rem;
+   
+}
+.spec-img {
+    display: flex;
+    gap: 3rem;
+}
+.spec-img img {
+    box-shadow: 3px 3px 1px black;
+  -webkit-box-shadow: 3px 3px 1px black;
+  -moz-box-shadow: 3px 3px 1px black;
+}
 #footer{
     width:100%;
     background-color: blue;

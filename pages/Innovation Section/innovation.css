@@ -157,6 +157,7 @@ html,body{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 .arjuna-event {
     height: 70rem;
@@ -179,6 +180,46 @@ html,body{
     font-size: 1.5rem;
     gap: 2rem;
     
+}
+.research-row img{
+    box-shadow: 5px 10px 10px;
+}
+.sih-slider {
+    height: 50rem;
+    width: 90%;
+    background-color:#a8dadc;
+    box-shadow: 5px 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+
+}
+.sih-slider .slider-heading{
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.w3-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.w3-button {
+    background-color: #fff;
+    font-size: 1.5rem;
+    height: 3rem;
+    width: 2rem;
+}
+.mySlides {
+    display: flex;
+    flex-direction: column;
+}
+.mySlides p {
+    font-size: 1.5rem;
+    font-weight: 700;
+
 }
 #footer{
     width:100%;

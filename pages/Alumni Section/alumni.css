@@ -164,7 +164,8 @@ html,body{
 }
 .sec3-img {
     display: flex;
-    gap: 3rem;  
+    gap: 3rem;
+    margin-bottom: 6rem;  
 }
 .sec3-heading {
     color: black;
