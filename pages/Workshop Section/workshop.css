@@ -97,7 +97,6 @@ html,body{
 
 .header-sec1 {
     background-color: #fff;
-    height: 8rem;
     display: flex;   
 }
 .header-logo {
@@ -158,6 +157,7 @@ html,body{
     display: flex;
     flex-direction: column;
     gap: 4rem;
+    padding: 1rem;
 }
 .workshop-content h1{
     margin-top: 2rem;

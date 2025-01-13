@@ -97,7 +97,7 @@ html,body{
 
 .header-sec1 {
     background-color: #fff;
-    height: 8rem;
+    padding: o.8rem;
     display: flex;   
 }
 .header-logo {
@@ -160,11 +160,11 @@ html,body{
     flex-direction: column;
 }
 .arjuna-event {
-    height: 100rem;
+    
     width: 90%;
     background-color:#a8dadc;
     margin: 5rem;
-    padding: 2rem;
+    padding: 4rem;
     box-shadow: 5px 10px 10px;
     display: flex;
     flex-direction: column;

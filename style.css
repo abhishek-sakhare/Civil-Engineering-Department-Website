@@ -17,7 +17,7 @@ html,body{
 }
 .header-sec1 {
     background-color: #fff;
-    height: 8rem;
+    
     display: flex;   
 }
 .header-logo {
@@ -89,7 +89,7 @@ html,body{
 }
 
 .content-sec1 {
-    height: 60rem;
+    height: 70rem;
     display: flex;
     gap: 3rem;
     justify-content: center;
@@ -98,15 +98,12 @@ html,body{
 .homepage-navbar {
     background-color: #457b9d;
     height: 100%;
-    width: 105%;
+    width: 45rem;
     display: flex;
     flex-direction: column;
     padding-top: 2rem;
     padding-left: 2rem;
     gap: 2rem;
-    
-    
-
 }
 .homepage-navbar a {
     font-weight: 1000;
@@ -118,29 +115,27 @@ html,body{
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    padding-top: 2rem;
+    padding: 1rem;
 }
 
-.con-history, .con-mission, .con-corevalue {
-    height: 15rem;
+.con-sec1-box {
+    width: 90%;
     background-color: #e7e7e7;
     border-radius: 25px;
     box-shadow: 5px 10px 15px;
 }
-.his-heading, .mis-heading, .cor-heading {
+.box-heading {
     padding-top: 0.5rem;
     background-color: #457b9d;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     color: white;
-    height: 3rem;
     padding-left:1rem ; 
 }
-.his-info, .mis-info, .cor-info {
+.box-info {
     font-size: 1.25rem;
     font-weight: 300;
-    margin-top: 1rem;
-    margin-left: 1rem;
+    padding: 1rem;
 }
 .content-sec2 {
     height: 10rem;
@@ -229,217 +224,7 @@ html,body{
     opacity: 1;
 }
 
-/*Sports Activities Section*/
-.head{
-    display:flex;
-}
-body{
-    margin:0px;
-    padding:0px;
-}
-.logo{
-    margin-left:25px;
-    margin-top:25px;
-}
-.heading{
-    margin-left:25px;
-    margin-top:10px;
-}
-.info{
-    height:50px;
-    background-color:#fc0000;
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.home{
-    margin-left:100px;
-}
-.Training{
-    margin-right:100px;
-}
-.me{
-    color: white;
-}
-.sport{
-    margin-left:180px;
-    margin-top:50px;
-    color:rgb(149, 0, 0);
-    
-}
-.content{
-    width:1000px;
-    height:200px;
-    margin-left:180px;
-}
-.content span{
-   font-size:large;
-}
-.slider{
-    width:100%;
-    height:500px;
-    overflow:hidden;
-}
-figure{
-    position:relative;
-    left:0;
-    width:400%;
-    animation: 10s slide infinite;
-}
-.slide{
-    position:relative;
-    width:25%;
-    float:left;
-   
-}
-.slide h1{
-    position:absolute;
-    font-size:3em;
-    width:100%;
-    color:white;
-    text-align:center;
-    margin-top:50px;
 
-    text-shadow:1px 1px 2px rgba(0,0,0,0.5);
-
-}
-.me img{
-    width:100%;
-    height:339px;
-}
-.them img{
-    width:100%;
-    height:321px;
-}
-.you img{
-    width:100%;
-    height:337px;
-}
-.any img{
-    width:100%;
-    height:452px;
-}
-@keyframes slide{
-    0%{
-        left:0;
-    }
-    10%{
-        left:0;
-    }
-    20%{
-        left:-100%;
-    }
-    30%{
-        left:-100%;
-    }
-    40%{
-        left:-200%;
-    }
-    50%{
-        left:-200%;
-    }
-    55%{
-        left:-300%;
-    }
-    65%{
-        left:-300%;
-    }
-    66%{
-        left:-200%;
-
-    }
-    74%{
-        left:-200%;
-
-    }
-    75%{
-        left:-100%;
-    }
-    85%{
-        left:-100%;
-    }
-    100%{
-        left:0;
-    }
-}
-/*Training and Placement Section
- General Styles */
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-/* Program Info Section */
-.program-info {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 20px 0;
-    border-bottom: 2px solid #ccc;
-}
-.program-photo {
-    width: 45%;
-    height: auto;
-    margin-right: 20px;
-}
-/* College Image on Left */
-.program-photo-left {
-    width: 35%;
-    height: auto;
-    margin-right: 30px;
-}
-
-.program-details {
-    width: 60%;
-}
-
-.program-details h2, h3, h4 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-.program-details p, ul {
-    font-size: 16px;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-ul {
-    list-style: disc;
-    padding-left: 20px;
-}
-
-/* Distribution Section */
-.distribution {
-    text-align: center;
-    margin-top: 30px;
-}
-
-/* Separate and Larger Distribution Sections */
-.charts-container {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
-}
-
-.branch-distribution, .gender-distribution {
-    width: 45%;
-}
-
-.branch-distribution img, .gender-distribution img {
-    max-width: 100%;
-    height: auto;
-}
-
-.branch-distribution h3, .gender-distribution h3 {
-    font-size: 28px;
-    color: #1e3d69;
-}
 #footerbuttom{
     height: 17vh;
     width: 100%;
@@ -719,88 +504,15 @@ li a{
 }
 
 
-.workshop-content {
-    background-color: #dad7cd;
-    display: flex;
-    flex-direction: column;
-    gap: 4rem;
-}
-.workshop-content h1{
-    margin-top: 2rem;
-    margin-left: 2.2rem;
-    font-size: 2.9rem;
+@media (max-width: 480px) {
+    #redstripe{
+        width: 100%;
+    }
+    #redstripLeftBox{
+        width: 100%;
+    }
+    .header-logo {
+        display: none;
+    }
     
-}
-.work-row1 {
-    display: flex;
-    gap: 10rem;
-    margin-bottom: 2rem;
-}
-.work-box {
-    height: 5rem;
-    width: 50rem;
-    background-color: #a3b18a;
-    box-shadow: 5px 10px 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1rem;
-    margin-top: 2rem;
-    margin-left: 2rem;
-    padding: 2rem;
-}
-.work-img1 {
-    margin-top: 2rem;
-    box-shadow: 5px 10px 10px;
-    border-radius: 5%;
-}
-.work-img2 {
-    margin-top: 2rem;
-    margin-left: 2rem;
-    box-shadow: 5px 10px 10px;
-    border-radius: 7%;
-}
-.work-row2 {
-    background-color: #a3b18a;
-    width: 95%;
-    height: 30rem;
-    margin-left: 2.5rem;
-    margin-top: 1rem;
-    padding-top: 2rem;
-    padding-left: 2rem;
-    font-size: 1.3rem;
-    box-shadow: 5px 10px 10px;
-}
-.work-row2 p {
-    margin-top: 3rem;
-}
-
-
-
-.research-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.arjuna-event {
-    height: 70rem;
-    width: 90%;
-    background-color: #08C2FF;
-    margin: 1rem;
-    padding: 2rem;
-    box-shadow: 5px 10px 10px;
-    display: flex;
-    flex-direction: column;
-    gap: 4rem;
-}
-.arjuna-event .arjuna-heading{
-    font-size: 3rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
-}
-.research-row {
-    display: flex;
-    font-size: 1.5rem;
-    gap: 2rem;
-    
-}
+  }
