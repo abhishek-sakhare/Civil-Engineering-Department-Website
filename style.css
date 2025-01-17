@@ -530,10 +530,38 @@ li a{
         display: none;
     }
     .content-sec1 {
+        height: 100rem;
         flex-direction: column;
     }
     .con-sec1-box {
-        width:80%;
+        width:90%;
     }
-    
+    .con-sec2-info {
+        width: 28rem;
+    }
+    #footertop {
+        height: 150vh;
+    }
+    #footertopcontent {
+        flex-direction: column;
+    }
+    #footermap {
+        height: 30%;
+        width: 120%;
+        
+    }
+    #footerlogo {
+        width: 40%;
+        height: 30%;
+    }
+    #footermiddle {
+        height: 250vh;
+        
+    }
+    #footermidcontent {
+        flex-direction: column;
+    }
+    #footermaplogo {
+        flex-direction: column;
+    }
   }
