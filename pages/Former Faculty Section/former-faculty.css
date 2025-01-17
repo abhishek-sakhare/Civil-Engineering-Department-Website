@@ -97,7 +97,7 @@ html,body{
 
 .header-sec1 {
     background-color: #fff;
-    padding: o.8rem;
+    padding-bottom: 0.5rem;
     display: flex;   
 }
 .header-logo {

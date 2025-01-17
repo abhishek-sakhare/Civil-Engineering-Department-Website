@@ -17,8 +17,12 @@ html,body{
 }
 .header-sec1 {
     background-color: #fff;
-    
-    display: flex;   
+    padding-bottom: 0.5rem;
+    display: flex;
+    justify-content: space-between;   
+}
+.sec1-box1{
+    display: flex;
 }
 .header-logo {
     height: 6rem;
@@ -59,9 +63,8 @@ html,body{
     display: flex;
     color: #232323;
     gap: 1rem;
-    justify-content: center;
     align-items: center;
-    margin-left: 30rem;
+    
 }
 .in2 {
     color: #232323;
@@ -74,11 +77,12 @@ html,body{
     background-color: #c22504;
 }
 
-.homepage-content {
-    /* height: 100rem; */
+/* .homepage-content {
+    
     display: flex;
     flex-direction: column;
-}
+    
+} */
 .dept-img {
     height: 30rem;
 }
@@ -511,8 +515,25 @@ li a{
     #redstripLeftBox{
         width: 100%;
     }
-    .header-logo {
+    .header-sec1 {
+        flex-direction: column;
+        padding: 2rem;
+        gap: 2rem;
+    }
+    .sec1-box1{
+        flex-direction: column;
+    }
+    .dept-img, .dept-img-src {
+        height: 10rem;
+    }
+    .homepage-navbar {
         display: none;
+    }
+    .content-sec1 {
+        flex-direction: column;
+    }
+    .con-sec1-box {
+        width:80%;
     }
     
   }

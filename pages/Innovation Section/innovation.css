@@ -97,7 +97,8 @@ html,body{
 
 .header-sec1 {
     background-color: #fff;
-    display: flex;   
+    display: flex;
+    padding-bottom: 0.5rem;   
 }
 .header-logo {
     height: 6rem;
@@ -184,7 +185,7 @@ html,body{
     box-shadow: 5px 10px 10px;
 }
 .sih-slider {
-    height: 50rem;
+    padding: 3rem;
     width: 90%;
     background-color:#a8dadc;
     box-shadow: 5px 10px 10px;
@@ -193,6 +194,7 @@ html,body{
     align-items: center;
     flex-direction: column;
     gap: 3rem;
+    margin: 2rem;
 
 }
 .sih-slider .slider-heading{
