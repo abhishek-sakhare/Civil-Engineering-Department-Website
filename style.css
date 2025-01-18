@@ -565,3 +565,22 @@ li a{
         flex-direction: column;
     }
   }
+  @media (max-width:360px) {
+    
+    .content-sec1 {
+        height: 120rem;
+    }
+    .con-sec1-box {
+        width: 90%;
+    }
+    .con-sec2-info {
+        width: 20rem;
+        padding: 2rem;
+        height: 10rem;
+    }
+    #footerbuttom {
+        height: 20vh;
+        padding-left:1.5rem ;
+        gap: 1rem;
+    }
+  }
