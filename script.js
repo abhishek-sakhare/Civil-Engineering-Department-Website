@@ -60,7 +60,14 @@ var observer = new IntersectionObserver(callback, {
 
 observer.observe(document.getElementById("number-counter"));
 
-
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
 
 // mission.addEventListener("mouseover", function () {
 //     if (!countdownStarted) {
