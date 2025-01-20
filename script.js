@@ -60,6 +60,7 @@ var observer = new IntersectionObserver(callback, {
 
 observer.observe(document.getElementById("number-counter"));
 
+//navbar script
 function myFunction() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
