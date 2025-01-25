@@ -180,6 +180,7 @@ html,body{
 }
 .inno-menu {
     width: 12rem;
+    left: 12rem;
 }
 
 .activity-menu:hover .activity-submenu {
