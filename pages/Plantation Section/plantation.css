@@ -1,0 +1,457 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a8dadc;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+#main{
+    height:100%;
+    width:100%; 
+}
+#redstrip{
+    height:2.56rem;
+    background-color: #c22504;
+    display:flex;
+    justify-content: space-around;
+    font-size: .875rem;
+    
+}
+#redstripLeftBox{
+    display: flex;
+    align-items: center;
+    width: 58.33%;
+}
+#redstripLeftBox a{
+    text-decoration:none;
+    color: white;
+    padding: 10px 10px 5px 5px; 
+}
+#redstripLeftBox a::after{
+    content:"|";
+    margin-left: 10px;
+}
+#redstripLeftBox a:hover{
+    color: rgb(255, 189, 7);
+}
+
+#whitestrip{
+    height: 9.6875rem;
+    width:100% ;
+    display: flex;
+}
+#nameLogo{
+    height:100%;
+    width:75%;
+    display: flex;
+    align-items: center;
+   justify-content:space-evenly;
+   padding-right: 30px;
+}
+#hindiname{
+    padding-top: 15px;
+}
+#socialmediasection{
+    height: 100%;
+    width: 25%;
+    font-display: flex;
+    align-items: center;
+}
+#socialmediaicon{
+    height: 100%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.socialmedia{
+    padding: 6px 10px;
+    border: 1px solid rgb(194, 37, 4);
+    border-radius: 5px;;
+
+}
+#bluestrip{
+    height:3.375rem;
+    width:100%;
+    background-color: rgb(48, 29, 112);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbar{
+    height: 100%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.header-sec1 {
+    background-color: #fff;  
+    padding-bottom: 0.5rem;
+    display: flex;
+    justify-content: space-between;  
+    padding-left: 2rem; 
+}
+.sec1-box1 {
+    display: flex;
+}
+.header-logo {
+    height: 6rem;
+    width: 6rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+.sec1-logo {
+    height: 6rem;
+    width: 6rem;
+    background-image: url("workshop-img/logo.png");
+    background-size: cover;
+}
+.brand-name {
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+.header-sec2 {
+    height: 3.5rem;
+    background-color: #c22504;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 1.5rem;
+    justify-content: space-evenly;    
+}
+.hvr {
+     color: white;
+    text-decoration: none;
+}
+.hvr:hover {
+    cursor: pointer;
+    color: orange;
+}
+.icons2 {
+    display: flex;
+    color: #232323;
+    gap: 1rem;
+    align-items: center;
+}
+.in2 {
+    color: #232323;
+    size: 4rem;
+    border:1px solid black;
+    border-radius:5px;
+    padding:10px;
+}
+.in2:hover {
+    background-color: #c22504;
+}
+
+.cultural-content {
+    display: flex;
+    flex-direction: column;
+    background-color:#ebc495;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    gap: 3rem;
+}
+.row1 {
+    display: flex;
+    /* height: 25rem; */
+    width: 90%;
+    background-color:#457b9d;
+    margin-top: 3rem;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 5px 10px 10px;
+    padding: 3rem;
+}
+.box1, .box2 {
+    display: flex;
+    background-color:#a8dadc;
+    /* height: 20rem; */
+    /* width: 40rem; */
+    box-shadow: 5px 10px 10px;
+    flex-direction: column;
+    padding: 2rem;
+    padding-top: 1rem;
+    padding-left: 3rem;
+    gap: 3rem;
+    
+}
+.box1, .box2 p{
+    font-weight: 700;
+    font-size: 1.2rem;
+    
+}
+.box1 img {
+    box-shadow: 3px 3px 1px black;
+  -webkit-box-shadow: 3px 3px 1px black;
+  -moz-box-shadow: 3px 3px 1px black;
+
+  height: 15rem;
+  width: 30rem;
+
+}
+.box2 img {
+    box-shadow: 3px 3px 1px black;
+  -webkit-box-shadow: 3px 3px 1px black;
+  -moz-box-shadow: 3px 3px 1px black;
+
+  height: 15rem;
+  width: 30rem;
+
+}
+.special {
+    width: 80rem;
+   
+}
+.spec-img {
+    display: flex;
+    gap: 3rem;
+}
+.spec-img img {
+    box-shadow: 3px 3px 1px black;
+  -webkit-box-shadow: 3px 3px 1px black;
+  -moz-box-shadow: 3px 3px 1px black;
+}
+.birthday img {
+    height: 15rem;
+    width: 22rem;
+}
+#footer{
+    width:100%;
+    background-color: blue;
+}
+#footertop{
+    height:40vh;
+    width:100%;
+    background-color:rgb(48, 29, 112);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#footertopcontent{
+    height:80%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#footermaplogo{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    width:65%;
+}
+#footermap{
+    height:80%;
+    width:70%;
+    overflow: hidden;  
+}
+#footermap iframe{
+  width: 100%;
+}
+#footerlogo{
+    background-color: white;
+    width:12%;
+    height: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#footerlogo img{
+    width:100%;
+    padding: 8px;
+}
+#footeraddresstext{
+    color:white;
+    margin-bottom: 30px;
+}
+#footersocialmediasection{
+    height: 100%;
+    width: 100%;
+    font-display: flex;
+    align-items: center;
+}
+#footersocialmediaicon{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#footersocialmeadiaicon:hover {
+    background-color: #c22504;
+}
+.footersocialmedia a{
+    padding: 6px 10px;
+    border: 1px solid white;
+    border-radius: 5px;;
+    color: white;
+}
+#footermiddle{
+    height:60vh;
+    width:100%;
+    background-color: rgb(35, 35, 35);
+    display: flex;
+    justify-content: space-around;
+}
+#footermidcontent{
+    width:90%;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.links{
+    margin-left: 55px;
+    color: white;
+}
+.links a{
+    color: white;
+    text-decoration: none;
+    
+}
+.links a h4{
+    margin-bottom: 25px;
+    font-size: 1.5rem;
+    display: inline-block;
+    border-bottom: 1px solid white;   
+}
+li::before{
+    content: "\f303";
+    color: #ebc495;
+    margin-right: 8px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    display:inline-block;
+    font-style: normal;   
+}
+ul li{
+    list-style: none;
+    padding:6px 0px ;   
+}
+li a{
+    font-size: 13px; 
+    text-decoration: none;
+}
+#footerbuttom{
+    height: 17vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    background-color: white;
+}
+#footerbuttom p{
+    color:#c22504;
+}
+#footerbuttom a{
+    color:#c22504;
+    font-weight: bolder;
+}
+
+
+
+@media (max-width: 480px) {
+    #redstripe{
+        width: 100%;
+    }
+    #redstripLeftBox{
+        width: 100%;
+    }
+    .header-sec1 {
+        flex-direction: column;
+        padding: 2rem;
+        gap: 2rem;
+    }
+    .sec1-box1{
+        flex-direction: column;
+    }
+    .homepage-navbar {
+        display: none;
+    }
+    .row1 {
+        flex-direction: column;
+        width: 85%;
+        height: 45rem;
+    }
+    .box1, .box2 {
+        width: 22rem;
+        padding-left: 0.5rem;;
+    }
+    .box1 img {
+        height: 10rem;
+        width: 19rem;
+    }
+    .box2 img{
+        height: 10rem;
+        width: 19rem;
+
+    }
+    .special {
+        height: 42rem;
+    }
+    .spec-img {
+        flex-direction: column;
+    }
+    #footertop {
+        height: 150vh;
+    }
+    #footertopcontent {
+        flex-direction: column;
+    }
+    #footermap {
+        height: 30%;
+        width: 120%;
+        
+    }
+    #footerlogo {
+        width: 40%;
+        height: 30%;
+    }
+    #footermiddle {
+        height: 250vh;
+        
+    }
+    #footermidcontent {
+        flex-direction: column;
+    }
+    #footermaplogo {
+        flex-direction: column;
+    }
+    
+  }
+  @media (max-width:360px) {
+    .box1, .box2 {
+        width: 15rem;
+    }
+    .box1 img {
+        height: 10rem;
+        width: 13rem;
+    }
+    .box2 img{
+        height: 10rem;
+        width: 13rem;
+
+    }
+    
+    #footerbuttom {
+        height: 20vh;
+        padding-left:1.5rem ;
+        gap: 1rem;
+    }
+  }

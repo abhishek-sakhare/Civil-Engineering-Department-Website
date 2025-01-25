@@ -165,8 +165,9 @@ html,body{
 }
 .row1 {
     display: flex;
-    height: 25rem;
-    width: 90%;
+    /* height: 25rem;
+    width: 90%; */
+    padding: 4rem;
     background-color:#457b9d;
     margin-top: 3rem;
     justify-content: center;
@@ -177,8 +178,9 @@ html,body{
 .box1, .box2 {
     display: flex;
     background-color:#a8dadc;
-    height: 20rem;
-    width: 40rem;
+    /* height: 20rem;
+    width: 40rem; */
+    padding: 3rem;
     box-shadow: 5px 10px 10px;
     flex-direction: column;
     padding-top: 1rem;
@@ -225,6 +227,18 @@ html,body{
 .birthday img {
     height: 15rem;
     width: 22rem;
+}
+.double {
+    gap: 2rem;
+    padding: 2rem;
+}
+.dbl-bx-1 {
+    padding: 1rem;
+    
+}
+.dbl-bx-2 {
+    padding: 1rem;
+    
 }
 #footer{
     width:100%;

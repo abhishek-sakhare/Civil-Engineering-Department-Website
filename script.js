@@ -60,7 +60,7 @@ var observer = new IntersectionObserver(callback, {
 
 observer.observe(document.getElementById("number-counter"));
 
-//navbar script
+//navbar script for mobile
 function myFunction() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
@@ -69,6 +69,20 @@ function myFunction() {
       x.className = "topnav";
     }
   }
+
+
+// let activity = document.querySelector(".navbar-activity");
+// let submenu = document.querySelector(".activity-submenu");
+
+// activity.addEventListener("mouseover", () => {
+//     console.log("activty");
+//     submenu.style.display = "block";
+// });
+// activity.addEventListener("mouseout", () => {
+//     console.log("activty");
+//     submenu.style.display = "none";
+// });
+
 
 // mission.addEventListener("mouseover", function () {
 //     if (!countdownStarted) {
