@@ -367,7 +367,11 @@ li a{
 
 /*   Media Querry added for Responsiveness   */
 
-
+@media (max-width:1280px) {
+    .content-sec1 {
+        height: 100rem;
+    }
+}
 @media (max-width: 480px) {
     #redstripe{
         width: 100%;
