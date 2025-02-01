@@ -300,7 +300,7 @@ display: none;
     color: white;
 }
 #footermiddle{
-    height:60vh;
+    
     width:100%;
     background-color: rgb(35, 35, 35);
     display: flex;
@@ -362,14 +362,16 @@ li a{
     font-weight: bolder;
 }
 
-
-
-
 /*   Media Querry added for Responsiveness   */
+
+/*small size laptop*/
 
 @media (max-width:1280px) {
     .content-sec1 {
         height: 100rem;
+    }
+    .mag-submenu {
+        left: 15rem;
     }
 }
 @media (max-width: 480px) {

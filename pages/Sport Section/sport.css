@@ -236,6 +236,10 @@ html,body{
     gap: 2rem;
     
 }
+.research-row img {
+    height: 15rem;
+    width: 25rem;
+}
 .research-row p{
     font-size: 1.5rem;
     font-weight: 700;
@@ -375,3 +379,8 @@ li a{
     font-weight: bolder;
 }
 
+@media (max-width:1280px) {
+    .research-row img{
+        width: 20rem;
+    }
+}

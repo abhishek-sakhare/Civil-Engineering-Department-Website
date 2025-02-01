@@ -364,7 +364,11 @@ li a{
     font-weight: bolder;
 }
 
-
+@media (max-width:1280px) {
+    .box1 img {
+        width: 18rem;
+    }
+}
 
 @media (max-width: 480px) {
     #redstripe{

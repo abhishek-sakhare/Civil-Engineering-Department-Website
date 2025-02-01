@@ -240,9 +240,13 @@ html,body{
     margin-bottom: 2rem;
     margin-top: 2rem;
 }
+.work-row1 img {
+    height: 15rem;
+    width: 30rem;
+}
 .work-box {
-    height: 5rem;
-    width: 50rem;
+    /* height: 5rem;
+    width: 50rem; */
     background-color: #a8dadc;
     box-shadow: 5px 10px 10px;
     display: flex;
@@ -266,12 +270,12 @@ html,body{
 }
 .work-row2 {
     background-color:#a8dadc;
-    width: 95%;
-    height: 30rem;
+    width: 87%;
+    /* height: 30rem; */
+    
     margin-left: 2.5rem;
-    margin-top: 1rem;
-    padding-top: 2rem;
-    padding-left: 2rem;
+    margin-top: 2rem;
+    padding: 2rem;
     font-size: 1.3rem;
     box-shadow: 5px 10px 10px;
 }
@@ -413,3 +417,12 @@ li a{
     font-weight: bolder;
 }
 
+@media (max-width:1280px) {
+    .special{
+        width: 70rem;
+    }
+    .work-row1 img{
+        height: 10rem;
+        width: 15rem;
+    }
+}

@@ -207,7 +207,7 @@ html,body{
     font-weight: 700;
 }
 .arjuna-event {
-    height: 70rem;
+    /* height: 70rem; */
     width: 90%;
     background-color:#a8dadc;
     margin: 1rem;
