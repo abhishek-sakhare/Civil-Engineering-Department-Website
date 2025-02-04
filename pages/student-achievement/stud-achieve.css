@@ -98,7 +98,11 @@ html,body{
 .header-sec1 {
     background-color: #fff;
     padding-bottom: 0.5rem;
-    display: flex;   
+    display: flex;
+    justify-content: space-between;   
+}
+.sec1-box1{
+    display: flex;
 }
 .header-logo {
     height: 6rem;
@@ -153,6 +157,12 @@ html,body{
 .in2:hover {
     background-color: #c22504;
 }
+.research-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 .faculty-info {
     display: flex;
     flex-direction: column;
@@ -199,12 +209,6 @@ html,body{
     flex-direction: column;
     font-weight: 700;
 }
-.research-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
 .arjuna-event {
     
     width: 90%;
@@ -228,7 +232,6 @@ html,body{
 }
 .research-row {
     display: flex;
-    flex-direction: column;
     font-size: 1.5rem;
     gap: 2rem;
     
@@ -237,7 +240,10 @@ html,body{
     height: 15rem;
     width: 25rem;
 }
-
+.research-row p{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
 #footer{
     width:100%;
     background-color: blue;
@@ -373,3 +379,8 @@ li a{
     font-weight: bolder;
 }
 
+@media (max-width:1280px) {
+    .research-row img{
+        width: 20rem;
+    }
+}

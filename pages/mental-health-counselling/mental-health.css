@@ -199,45 +199,6 @@ html,body{
     flex-direction: column;
     font-weight: 700;
 }
-.research-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-.arjuna-event {
-    
-    width: 90%;
-    background-color:#a8dadc;
-    margin: 5rem;
-    padding: 4rem;
-    box-shadow: 5px 10px 10px;
-    display: flex;
-    flex-direction: column;
-    gap: 4rem;
-    justify-content: center;
-    align-items: center;
-}
-.arjuna-event .arjuna-heading{
-    font-size: 3rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
-}
-.arjuna-event img{
-    box-shadow: 5px 10px 10px;
-}
-.research-row {
-    display: flex;
-    flex-direction: column;
-    font-size: 1.5rem;
-    gap: 2rem;
-    
-}
-.research-row img {
-    height: 15rem;
-    width: 25rem;
-}
-
 #footer{
     width:100%;
     background-color: blue;
