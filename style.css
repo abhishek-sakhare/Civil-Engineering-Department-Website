@@ -157,12 +157,13 @@ display: none;
     left: 10rem;
 }
 .mag-submenu {
-    left: 21rem;
+    left: 15rem;
     width: 12rem;
 }
 .inno-menu {
     width: 12rem;
     left: 12rem;
+    padding: 0.5rem;
 }
 .activity-menu:hover .activity-submenu {
     display: flex;
