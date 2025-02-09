@@ -58,7 +58,7 @@ html,body{
 }
 
 
-/*    Departmnet Image    */
+/*    Department Image    */
 .dept-img {
     height: 30rem;
 }
@@ -99,7 +99,7 @@ display: none;
 
 /*  Home-Page Content Section  */
 .content-sec1 {
-    height: 90rem;
+    /* height: 90rem; */
     display: flex;
     gap: 3rem;
     justify-content: center;
@@ -118,11 +118,11 @@ display: none;
     background-color: #457b9d;
     display: flex;
     flex-direction: column;
-    /* padding-left: 2.5rem;
+    padding-left: 2.5rem;
     padding-top:1rem;
     padding-bottom: 1rem;
-    padding-right: 1rem; */
-    height: 100%;
+    padding-right: 1rem;
+    /* height: 100%; */
     width: 70rem;
     padding-top: 2rem;
     padding-left: 2rem;
@@ -196,6 +196,16 @@ display: none;
     font-weight: 300;
     padding: 1rem;
 }
+.box-content {
+    display: flex;
+    padding: 1.5rem;
+}
+.box-content img {
+    box-shadow: 5px 3px 15px;
+    height: 10rem;
+    width: 15rem;
+    border-radius: 2px;
+}
 
 
 /*   Number Counter Section */
@@ -220,7 +230,7 @@ display: none;
     border-radius: 10px;
     color: white;
 }
-.num-of-student, .num-of-faculty{
+.num-of-student, .num-of-faculty, .num-of-staff{
     font-size: 3rem;
 }
 
@@ -367,9 +377,7 @@ li a{
 /*small size laptop*/
 
 @media (max-width:1280px) {
-    .content-sec1 {
-        height: 100rem;
-    }
+    
     .mag-submenu {
         left: 15rem;
     }
@@ -398,10 +406,10 @@ li a{
     .topnav {
         display: block;
     }
-    .content-sec1 {
+    /* .content-sec1 {
         height: 100rem;
         flex-direction: column;
-    }
+    } */
     .con-sec1-box {
         width:90%;
     }

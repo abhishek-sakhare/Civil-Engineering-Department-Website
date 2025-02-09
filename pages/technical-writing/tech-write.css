@@ -6,7 +6,7 @@
 }
 body {
     font-family: Arial, sans-serif;
-    background-color: #457b9d;;
+    background-color: #457b9d;
 }
 html,body{
     height:100%;
@@ -56,188 +56,49 @@ html,body{
     background-color: #c22504;
 }
 
-
+.research-row ul li {
+    list-style: none;
+    
+}
 .research-content {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-.faculty-info {
-    display: flex;
-    flex-direction: column;
-    padding: 2rem;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    
-}
-.hod-row div img{
-    width: 160px;
-    height: 160px;
-}
-.frame {
-    width: 200px;
-    height: 200px;
-    border: 10px solid #f4a261;
-    border-radius: 15px;
-    padding: 10px;
-    background: linear-gradient(45deg, #f4a261, #264653);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-}
-.frame img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-}
-.hod-row div p,.advisor-row div p{
-    font-weight: 700;
-    font-size: 1.5rem;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.advisor-row   {
-    display: flex;
-    gap: 20rem;
-}
-.captain-row {
-    display: flex;
-    flex-direction: column;
-    font-weight: 700;
-}
 .arjuna-event {
-    /* height: 70rem; */
+    
     width: 90%;
     background-color:#a8dadc;
-    margin: 1rem;
-    padding: 2rem;
+    margin: 5rem;
+    padding: 4rem;
     box-shadow: 5px 10px 10px;
     display: flex;
     flex-direction: column;
     gap: 4rem;
+    justify-content: center;
+    align-items: center;
 }
 .arjuna-event .arjuna-heading{
     font-size: 3rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
+.arjuna-event img{
+    box-shadow: 5px 10px 10px;
+}
 .research-row {
     display: flex;
+    flex-direction: column;
     font-size: 1.5rem;
     gap: 2rem;
     
 }
-.research-row img{
-    box-shadow: 5px 10px 10px;
+.research-row img {
+    height: 15rem;
+    width: 25rem;
 }
- .sih-slider {
-    padding: 3rem;
-    width: 90%;
-    background-color:#a8dadc;
-    box-shadow: 5px 10px 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 3rem;
-    margin: 2rem;
- }
 
-
-.sih-slider .slider-heading{
-    font-size: 3rem;
-    font-weight: 700;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-/*
-.w3-content{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.w3-button {
-    background-color: #fff;
-    font-size: 1.5rem;
-    height: 3rem;
-    width: 2rem;
-}
-.mySlides {
-    display: flex;
-    flex-direction: column;
-}
-.mySlides p {
-    font-size: 1.5rem;
-    font-weight: 700;
-
-} */
-
-
- /* Slideshow container */
-.slideshow-container {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
-  }
-  .slideshow-container img {
-    height: 30rem;
-    width: 30rem;
-  }
-  /* Caption text */
-  .text {
-    color:white;
-    font-weight: 700;
-    font-size: 1.5rem;
-    -webkit-text-stroke: 2px black;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-  }
-  
-  /* Number text (1/3 etc) */
-  .numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-  }
-  
-  /* The dots/bullets/indicators */
-  .dot {
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-  }
-  
-  .active {
-    background-color: #717171;
-  }
-  
-  /* Fading animation */
-  .fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
-  
-  @keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-  }
-  
-  /* On smaller screens, decrease text size */
-  @media only screen and (max-width: 300px) {
-    .text {font-size: 11px}
-  }
 #footer{
     width:100%;
     background-color: blue;

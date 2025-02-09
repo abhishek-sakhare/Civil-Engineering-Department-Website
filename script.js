@@ -1,14 +1,16 @@
 
-let homePageContent = document.querySelector(".homepage-content");
 let noOfStudent = document.querySelector(".num-of-student");
 let noOfFaculty = document.querySelector(".num-of-faculty");
-let mission = document.querySelector(".mis-info");
-let core = document.querySelector(".core-info");
+let noOfStaff = document.querySelector(".num-of-staff");
+
 let count = 0;
 let countdownStarted = false;
 
 let count2 = 0;
 let countdownStarted2 = false;
+
+let count3 = 0;
+let countdownStarted3 = false;
 
 function studentCounter () {
     if (!countdownStarted) {
@@ -39,6 +41,21 @@ function facultyCounter () {
     }
 
 }
+function StaffCounter () {
+    if (!countdownStarted3) {
+        countdownStarted3 = true;
+
+        let countdown3 = setInterval(function() {
+            noOfStaff.innerText = `${count3}+`;
+            count3++;
+
+            if (count3 > 7) {
+                clearInterval(countdown3);
+            }
+        }, 500);
+    }
+
+}
 
 let callback = (entries, observer) => {
     entries.forEach(entry => {
@@ -47,6 +64,7 @@ let callback = (entries, observer) => {
             if(entry.target.id === 'number-counter') {
                 studentCounter();
                 facultyCounter();
+                StaffCounter();
             }
         } else {
 
@@ -69,50 +87,3 @@ function myFunction() {
       x.className = "topnav";
     }
   }
-
-
-// let activity = document.querySelector(".navbar-activity");
-// let submenu = document.querySelector(".activity-submenu");
-
-// activity.addEventListener("mouseover", () => {
-//     console.log("activty");
-//     submenu.style.display = "block";
-// });
-// activity.addEventListener("mouseout", () => {
-//     console.log("activty");
-//     submenu.style.display = "none";
-// });
-
-
-// mission.addEventListener("mouseover", function () {
-//     if (!countdownStarted) {
-//         countdownStarted = true;
-
-//         let countdown = setInterval(function() {
-//             noOfStudent.innerText = `${count}+`;
-//             count++;
-
-//             if (count > 400) {
-//                 clearInterval(countdown);
-//             }
-//         }, 10);
-//     }
-// },{ once : true});
-
-
-// mission.addEventListener("mouseover", function () {
-//     if (!countdownStarted2) {
-//         countdownStarted2 = true;
-
-//         let countdown2 = setInterval(function() {
-//             console.log(count2);
-//             noOfFaculty.innerText = `${count2}+`;
-//             count2++;
-
-//             if (count2 > 30) {
-//                 clearInterval(countdown2);
-//             }
-//         }, 100);
-//     }
-// },{ once : true});
-
