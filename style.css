@@ -196,6 +196,7 @@ display: none;
     font-size: 1.25rem;
     font-weight: 300;
     padding: 1rem;
+    text-align: justify;
 }
 .box-content {
     display: flex;
