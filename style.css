@@ -168,7 +168,9 @@ display: none;
 .activity-menu:hover .activity-submenu {
     display: flex;
 }
-
+.research-submenu {
+    width: 13rem;
+}
 
 /*  Information section  */
 .con-sec1-info{
@@ -208,7 +210,16 @@ display: none;
     width: 15rem;
     border-radius: 2px;
 }
-
+.hod-msg-box {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.25rem;
+    font-weight: 300;
+    text-align: justify;
+}
+.hod-msg {
+    display: flex;
+}
 
 /*   Number Counter Section */
 .content-sec2 {

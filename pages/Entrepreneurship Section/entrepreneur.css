@@ -99,7 +99,7 @@ html,body{
 }
 .captain-row {
     display: flex;
-    flex-direction: column;
+    gap: 20rem;
     font-weight: 700;
 }
 .research-content {
