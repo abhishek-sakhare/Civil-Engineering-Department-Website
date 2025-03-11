@@ -209,6 +209,7 @@ display: none;
     height: 10rem;
     width: 15rem;
     border-radius: 2px;
+    margin-right: 3rem;
 }
 .hod-msg-box {
     display: flex;
@@ -219,6 +220,9 @@ display: none;
 }
 .hod-msg {
     display: flex;
+}
+.hod-name {
+    font-weight: 700;
 }
 
 /*   Number Counter Section */
