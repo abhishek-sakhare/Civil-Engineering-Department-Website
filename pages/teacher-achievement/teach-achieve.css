@@ -102,6 +102,7 @@ html,body{
     gap: 2rem;
     justify-content: center;
     align-items: center;
+    text-align: justify;
     
 }
 .research-row img {

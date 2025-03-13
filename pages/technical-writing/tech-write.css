@@ -78,6 +78,7 @@ html,body{
     gap: 4rem;
     justify-content: center;
     align-items: center;
+    text-align: justify;
 }
 .arjuna-event .arjuna-heading{
     font-size: 3rem;

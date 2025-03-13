@@ -107,6 +107,7 @@ html,body{
     display: flex;
     flex-direction: column;
     font-weight: 700;
+
 }
 .arjuna-event {
     
@@ -142,6 +143,7 @@ html,body{
 .research-row p{
     font-size: 1.5rem;
     font-weight: 700;
+    text-align: justify;
 }
 #footer{
     width:100%;

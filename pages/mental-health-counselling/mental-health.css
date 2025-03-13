@@ -115,6 +115,15 @@ html,body{
     justify-content: center;
     align-items: center;
 }
+.mental {
+    gap:0;
+}
+.mental h2 {
+    margin-top: 1rem;
+}
+.mental div {
+    margin-top: 3rem;
+}
 .arjuna-event .arjuna-heading{
     font-size: 3rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
