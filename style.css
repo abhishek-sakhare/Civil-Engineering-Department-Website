@@ -150,18 +150,19 @@ display: none;
     background-color:#2a495c;
     color: white;
     padding: 1rem;
-    padding-left: 0.5rem;
+    padding-left: 0.9rem;
     border-radius: 10%;
     margin-left: 0.1rem;
     position: absolute;
     left: 10rem;
+    text-align:justify;
 }
 .mag-submenu {
     left: 15rem;
     width: 12rem;
 }
 .inno-menu {
-    width: 12rem;
+    width: 10rem;
     left: 12rem;
     padding: 0.5rem;
 }
@@ -284,7 +285,7 @@ display: none;
     height:80%;
     width:70%;
     overflow: hidden;  
-}
+} 
 #footermap iframe{
   width: 100%;
 }
@@ -489,6 +490,11 @@ li a{
 
 .footer-section li:hover {
     color: #ffcc00;
+}
+
+.footer-section a {
+    color: white;
+    font-size: 1rem;
 }
 
 /*   Media Querry added for Responsiveness   */
