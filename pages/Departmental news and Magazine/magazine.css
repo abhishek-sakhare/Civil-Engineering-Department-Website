@@ -200,6 +200,9 @@ html,body{
     flex-direction: column;
     font-weight: 700;
 }
+.Captain {
+    padding-left: 12rem;
+}
 .cultural-content {
     display: flex;
     flex-direction: column;

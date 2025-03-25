@@ -56,6 +56,10 @@ html,body{
     background-color: #c22504;
 }
 
+
+/* Content Section */
+
+/* Alumni Photo and Details Section */
 .content-sec3 {
     padding: 5rem;
     background-color:#a8dadc;
@@ -132,13 +136,15 @@ body {
 h1 {
     margin-left: 5rem;
 }
+
+/* Table Stylling */
 table {
     width: 50%;
     border-collapse: collapse;
     margin-top: 20px;
     margin-left: 5rem;
 }
-th, td {
+th, td { 
     padding: 10px;
     border: 1px solid #ddd;
     text-align: left;
@@ -155,6 +161,9 @@ tr:nth-child(odd) {
 tr:hover {
     background-color: #b0a9a9;
 }
+
+
+/* Footer Section */
 #footer{
     width:100%;
     background-color: blue;

@@ -96,6 +96,10 @@ html,body{
   width: 30rem;
 
 }
+.visitor img {
+    height: 20rem;
+    width: 40rem;
+}
 .box2 img {
     box-shadow: 3px 3px 1px black;
   -webkit-box-shadow: 3px 3px 1px black;

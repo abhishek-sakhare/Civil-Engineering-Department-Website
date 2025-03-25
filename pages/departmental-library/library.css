@@ -128,10 +128,10 @@ html,body{
     margin-left: 3rem;
     
 }
-.box1, .box2 p{
+.box1 p{
     font-weight: 700;
-    font-size: 1.2rem;
-    
+    font-size: 1.5rem;
+    margin-top: 2rem;
 }
 .box1 img {
     box-shadow: 3px 3px 1px black;
