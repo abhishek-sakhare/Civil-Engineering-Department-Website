@@ -99,7 +99,7 @@ html,body{
 }
 .captain-row {
     display: flex;
-    gap: 20rem;
+    gap: 15rem;
     font-weight: 700;
 }
 .cultural-content {

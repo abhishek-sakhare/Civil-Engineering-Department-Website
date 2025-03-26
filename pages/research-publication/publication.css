@@ -1,4 +1,3 @@
-
 /*  Basic Stylling */
 *{
     margin: 0;
@@ -7,7 +6,7 @@
 }
 body {
     font-family: Arial, sans-serif;
-    background-color:#ebc495;
+    background-color: #457b9d;
 }
 html,body{
     height:100%;
@@ -57,67 +56,60 @@ html,body{
     background-color: #c22504;
 }
 
+/* 
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+} */
 
+.content {
+    padding: 5rem;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 70%;
+    background-color: #a8dadc;
+    padding: 10px;
+}
 
-.research-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
 }
-.arjuna-event {
-    
-    width: 90%;
-    background-color: #457b9d;
-    margin: 5rem;
-    padding: 4rem;
-    box-shadow: 5px 10px 10px;
-    display: flex;
-    flex-direction: column;
-    gap: 4rem;
-    justify-content: center;
-    align-items: center;
+
+caption {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left;
 }
-.section1 {
-    padding: 3rem;
-    width: 90%;
-    background-color:#a8dadc;
-    display: flex;
-    flex-direction: column;
-    gap: 4rem;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 5px 10px 10px;
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
 }
-.arjuna-event .arjuna-heading{
-    font-size: 3rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
 }
-.arjuna-event img{
-    box-shadow: 5px 10px 10px;
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
 }
-.research-row {
-    display: flex;
-    flex-direction: column;
-    font-size: 1.5rem;
-    gap: 2rem;
-    justify-content: center;
-    align-items: center;
-    text-align: justify;
-    
-}
-.research-row img {
-    height: 30rem;
-    width: 50rem;
-}
-.img-row {
-    display: flex;
-    gap: 3rem;
-}
-.img-row img {
-    height: 15rem;
-    width: 25rem;
+
+tr:hover {
+    background-color: #f1f1f1;
 }
 
 #footer{
@@ -303,6 +295,3 @@ li a{
     color: white;
     font-size: 1rem;
 }
-
-
-
