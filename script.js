@@ -79,11 +79,24 @@ var observer = new IntersectionObserver(callback, {
 observer.observe(document.getElementById("number-counter"));
 
 //navbar script for mobile
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-      x.className += " responsive";
-    } else {
-      x.className = "topnav";
-    }
-  }
+
+const hamburger = document.getElementById("hamburger");
+const sideMenu = document.getElementById("sideMenu");
+const closeBtn = document.getElementById("closeBtn");
+
+hamburger.addEventListener("click", () => {
+  sideMenu.classList.add("open");
+});
+
+closeBtn.addEventListener("click", () => {
+  sideMenu.classList.remove("open");
+});
+
+// Toggle submenu
+document.querySelectorAll(".has-submenu").forEach(item => {
+  item.addEventListener("click", (e) => {
+    e.stopPropagation();
+    item.classList.toggle("open");
+  });
+});
+

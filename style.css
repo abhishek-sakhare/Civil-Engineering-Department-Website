@@ -32,8 +32,8 @@ html,body{
 .header-logo {
     height: 6rem;
     width: 6rem;
-    margin-left: 2rem;
-    margin-top: 1rem;
+    align-items: center;
+    margin: 1rem;
 }
 .brand-name {
     margin-top: 1rem;
@@ -64,38 +64,114 @@ html,body{
 }
 .dept-img-src {
     height: 30rem;
-    background-image: url("images/Homepage-img/civil-dept-img.jpg");
+    background-image: url("images/Homepage-img/dept-img-3.jpg");
     background-size:cover;
 }
 
 
 /*   Mobile Navigation Bar   */
-.topnav {
-    overflow: hidden;
-    background-color: #333;
-    display: none;
+.close-btn {
+  font-size: 30px;
+  color: white;
+  text-align: right;
+  padding: 10px 20px;
+  cursor: pointer;
 }
-.topnav a {
-float: left;
-display: block;
-color: #f2f2f2;
-text-align: center;
-padding: 14px 16px;
-text-decoration: none;
-font-size: 17px;
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
 }
-.topnav a:hover {
-background-color: #ddd;
-color: black;
+
+.navbar {
+  height: 60px;
+  background-color:#457b9d;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  display: none;
 }
-.topnav a.active {
-background-color: #457b9d;
-color: white;
+
+.hamburger {
+  font-size: 28px;
+  cursor: pointer;
+  display: none;
 }
-.topnav .icon {
-display: none;
+
+.side-menu {
+  position: fixed;
+  top: 0;
+  left: -260px;
+  width: 260px;
+  height: 100%;
+  background-color:#457b9d;
+  overflow-y: auto;
+  transition: left 0.3s ease;
+  z-index: 1000;
+  display: none;
 }
-  
+
+.side-menu li {
+    color: white;
+}
+
+.side-menu.open {
+  left: 0;
+}
+
+.menu, .submenu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu > li {
+  padding: 15px 20px;
+  color: white;
+  cursor: pointer;
+  border-bottom: 1px solid #555;
+  position: relative;
+}
+
+.menu > li:hover {
+  background-color: #555;
+}
+
+.has-submenu > .submenu {
+  display: none;
+  background-color: #555;
+}
+
+.has-submenu.open > .submenu {
+  display: block;
+  position: relative;
+  left: 10px;
+}
+
+.submenu > li {
+  padding: 10px 30px;
+  color: #ddd;
+  border-bottom: 1px solid #666;
+}
+
+.submenu > li:hover {
+  background-color: #666;
+}
+
+menu li,
+.menu li a,
+.menu li span,
+.menu li ul.submenu li a {
+  color: white !important;
+}
+
+
+.menu .has-submenu > span {
+  color: white !important;
+}
+
 
 /*  Home-Page Content Section  */
 .content-sec1 {
@@ -210,7 +286,7 @@ display: none;
     height: 10rem;
     width: 15rem;
     border-radius: 2px;
-    margin-right: 3rem;
+    
 }
 .hod-msg-box {
     display: flex;
@@ -225,13 +301,16 @@ display: none;
 .hod-name {
     font-weight: 700;
 }
+.hod-name2 {
+    display: none;
+}
 
 /*   Number Counter Section */
 .content-sec2 {
     height: 10rem;
     display: flex;
-    justify-content: center;
     align-items:center;
+    
 }
 .con-sec2-info {
     height: 7rem;
@@ -247,6 +326,7 @@ display: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-radius: 10px;
     color: white;
+    box-shadow: 5px 10px 15px black;
 }
 .num-of-student, .num-of-faculty, .num-of-staff{
     font-size: 3rem;
@@ -497,6 +577,10 @@ li a{
     font-size: 1rem;
 }
 
+#footerbuttom div{
+    display: flex;
+    align-items: center;
+}
 
 
 /*   Media Querry added for Responsiveness   */
@@ -509,13 +593,118 @@ li a{
         left: 15rem;
     }
 }
+
+@media (max-width:1160px) {
+    .dept-img {
+        height: 25rem;
+    }
+    .dept-img-src {
+        height: 25rem;
+    }
+    .con-sec2-info {
+        width: 45rem;
+    }
+}
+
+@media (max-width:1086px) {
+    .con-sec2-info {
+        width: 42rem;
+        font-size: 1.3rem;
+    }
+    
+} 
+
+@media (max-width:1031px) {
+    .con-sec2-info {
+        width: 38rem;
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width:966px) {
+    .con-sec2-info {
+        width: 34rem;
+        font-size: 1rem;
+    }
+    .hod-msg {
+        flex-direction: column;
+        align-items: center;
+    }
+    .hod-name2 {
+        margin-top: 2rem;
+        display: block;
+        font-weight: 700;
+    }
+    .hod-name {
+        display: none;
+    }
+
+} 
+
+@media (max-width:897px) {
+    .con-sec2-info {
+        width: 31rem;
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width:817px) {
+    .con-sec2-info {
+        width: 28rem;
+        font-size: 0.7rem;
+    }
+}
+@media (max-width: 802px) {
+
+   .homepage-navbar {
+    display: none;
+   }
+
+   .navbar {
+    display:block;
+   }
+  .hamburger {
+    display: block;
+  }
+
+  .side-menu {
+    display: block;
+  }
+  .con-sec1-info {
+    align-items: center;
+  }
+}
+
+
+@media (max-width:590px) {
+    .header-sec1 {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    .sec1-box1 {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+}
+
+@media (max-width:500px) {
+    #footerbuttom {
+        gap: 0.5rem;
+    }
+    #footerbuttom div {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+  }
+
+
+
 @media (max-width: 480px) {
-    #redstripe{
-        width: 100%;
-    }
-    #redstripLeftBox{
-        width: 100%;
-    }
+
+
+    
     .header-sec1 {
         flex-direction: column;
         padding: 2rem;
@@ -533,16 +722,26 @@ li a{
     .topnav {
         display: block;
     }
-    /* .content-sec1 {
-        height: 100rem;
-        flex-direction: column;
-    } */
+    .box-content img {
+        width: 12rem;
+        align-items: center;
+    }
+
+
+
     .con-sec1-box {
         width:90%;
     }
     .con-sec2-info {
         width: 28rem;
     }
+
+    .con-sec2-info {
+        width: 25rem;
+        font-size: 0.6rem;
+    }
+
+
     #footertop {
         height: 150vh;
     }
@@ -569,44 +768,61 @@ li a{
         flex-direction: column;
     }
   }
-  @media (max-width:360px) {
-    
-    .content-sec1 {
-        height: 120rem;
-    }
-    .con-sec1-box {
-        width: 90%;
-    }
+
+  
+  
+  @media (max-width:441px) {
     .con-sec2-info {
-        width: 20rem;
-        padding: 2rem;
-        height: 10rem;
+        width: 22rem;
+        font-size: 0.2rem;
+        padding: 0.5rem;
+        font-weight: 300;
     }
-    #footerbuttom {
-        height: 20vh;
-        padding-left:1.5rem ;
-        gap: 1rem;
+    .con-sec2-info p {
+        font-size: 0.8rem;
     }
   }
 
-  @media screen and (max-width: 600px) {
-    .topnav a:not(:first-child) {display: none;}
-    .topnav a.icon {
-      float: right;
-      display: block;
+  @media (maax-width:439px) {
+    .con-sec2-info {
+        width: 22rem;
+    }
+    .con-sec2-info p {
+        font-size: 0.8rem;
     }
   }
-  
-  @media screen and (max-width: 600px) {
-    .topnav.responsive {position: relative;}
-    .topnav.responsive .icon {
-      position: absolute;
-      right: 0;
-      top: 0;
+
+
+  @media (max-width:385px) {
+
+    .box-content img {
+        width: 9rem;
+        height: 8rem;
     }
-    .topnav.responsive a {
-      float: none;
-      display: block;
-      text-align: left;
+    
+    .num-of-student, .num-of-faculty, .num-of-staff {
+        font-size: 2.5rem;
+    }
+
+    .con-sec2-info {
+        width: 20rem;
+        font-size: 0.05rem;
+        padding: 0.8rem;
+    }
+    .con-sec2-info p {
+        font-size: 0.6rem;
+    }
+  }
+
+  @media (max-width:369px) {
+    
+    .con-sec2-info {
+        width: 18rem;
+    }
+    .num-of-student, .num-of-faculty, .num-of-staff {
+        font-size: 2rem;
+    }
+    .con-sec2-info p {
+        font-size: 0.8rem;
     }
   }
