@@ -159,12 +159,22 @@ body {
 .submenu > li:hover {
   background-color: #666;
 }
-
-menu li,
+.menu li,
 .menu li a,
 .menu li span,
 .menu li ul.submenu li a {
   color: white !important;
+  font-weight: 600;
+  font-size: 1.05rem;
+  letter-spacing: 0.5px;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  text-transform: capitalize;
+}
+
+.menu li a:hover,
+.menu li span:hover {
+  color: #ffcc00 !important;
+  transition: color 0.3s ease;
 }
 
 

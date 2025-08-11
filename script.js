@@ -79,16 +79,17 @@ var observer = new IntersectionObserver(callback, {
 observer.observe(document.getElementById("number-counter"));
 
 //navbar script for mobile
-
 const hamburger = document.getElementById("hamburger");
 const sideMenu = document.getElementById("sideMenu");
 const closeBtn = document.getElementById("closeBtn");
 
-hamburger.addEventListener("click", () => {
+hamburger.addEventListener("click", (e) => {
+  e.stopPropagation(); // Prevent triggering the outside click event
   sideMenu.classList.add("open");
 });
 
-closeBtn.addEventListener("click", () => {
+closeBtn.addEventListener("click", (e) => {
+  e.stopPropagation();
   sideMenu.classList.remove("open");
 });
 
@@ -98,5 +99,14 @@ document.querySelectorAll(".has-submenu").forEach(item => {
     e.stopPropagation();
     item.classList.toggle("open");
   });
+});
+
+// Close menu when clicking outside
+document.addEventListener("click", (e) => {
+  if (sideMenu.classList.contains("open") &&
+      !sideMenu.contains(e.target) &&
+      !hamburger.contains(e.target)) {
+    sideMenu.classList.remove("open");
+  }
 });
 
