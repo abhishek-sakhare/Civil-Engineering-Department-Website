@@ -24,9 +24,11 @@ html,body{
     display: flex;
     justify-content: space-between;   
     padding-right: 2rem;
+    align-items: center;
 }
 .sec1-box1{
     display: flex;
+    align-items: center;
 }
 .header-logo {
     height: 6rem;
@@ -69,49 +71,65 @@ th, td {
 th {
     background-color: #f2f2f2;
 } */
-
 .content {
-    padding: 5rem;
+    padding: 2rem;
     width: 60%;
-    margin: auto;
-    margin-top: 3rem;
-    width: 60%;
+    margin: 3rem auto 1rem;
     background-color: #a8dadc;
-    padding: 10px;
+    text-align: center;
 }
 
-h2,h3,h4 {
-    margin-left: 5rem;
+h2, h3 {
     margin-bottom: 1rem;
-    color: black
+    color: black;
 }
-h4 {
-    font-size: 1.5rem;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+.table-container {
+    width: 100%;
+    overflow-x: auto; /* Enables horizontal scrolling on small screens */
 }
 
 table {
-    width: 50%;
+    width: 100%;
     border-collapse: collapse;
-    margin-top: 20px;
-    margin-left: 5rem;
+    min-width: 500px; /* Prevents table from squishing too much */
 }
+
 th, td {
     padding: 10px;
     border: 1px solid #ddd;
     text-align: left;
 }
+
 th {
     background-color: #f2f2f2;
 }
+
 tr:nth-child(even) {
     background-color: #f9f9f9;
 }
+
 tr:nth-child(odd) {
     background-color: #f9f9f9e0;
 }
+
 tr:hover {
     background-color: #b0a9a9;
+}
+
+/* Responsive adjustments */
+@media (max-width: 900px) {
+    .content {
+        width: 90%;
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 600px) {
+    th, td {
+        padding: 8px;
+        font-size: 14px;
+    }
 }
 
 #footer{
@@ -241,6 +259,11 @@ li a{
     font-size: 14px;
     background-color: white;
 }
+
+#footerbuttom div{
+    display: flex;
+    align-items: center;
+}
 #footerbuttom p{
     color:#c22504;
 }
@@ -296,4 +319,58 @@ li a{
 .footer-section a {
     color: white;
     font-size: 1rem;
+}
+
+@media (max-width:1100px) {
+    .content {
+        width: 87%;
+    }
+}
+
+
+@media (max-width:700px) {
+    .header-sec1 {
+        flex-direction: column;
+        padding: 2rem;
+        gap: 2rem;
+    }
+    .sec1-box1{
+        flex-direction: column;
+    }
+    #footertop {
+        height: 150vh;
+    }
+    #footertopcontent {
+        flex-direction: column;
+    }
+    #footermap {
+        height: 30%;
+        width: 120%;
+        
+    }
+    #footerlogo {
+        width: 40%;
+        height: 30%;
+    }
+    #footermiddle {
+        height: 250vh;
+        
+    }
+    #footermidcontent {
+        flex-direction: column;
+    }
+    #footermaplogo {
+        flex-direction: column;
+    }
+}
+@media (max-width:471px) {
+    #footerbuttom div {
+        flex-direction: column;
+    }
+}
+
+@media (max-width:449px) {
+    table {
+        width: 50%;
+    }
 }

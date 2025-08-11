@@ -24,9 +24,11 @@ html,body{
     display: flex;
     justify-content: space-between;   
     padding-right: 2rem;
+    align-items: center;
 }
 .sec1-box1{
     display: flex;
+    align-items: center;
 }
 .header-logo {
     height: 6rem;
@@ -102,7 +104,7 @@ html,body{
   -moz-box-shadow: 3px 3px 1px black;
 
   height: 15rem;
-  width: 30rem;
+  width: 21rem;
 
 }
 .box2 img {
@@ -113,10 +115,6 @@ html,body{
   height: 15rem;
   width: 30rem;
 
-}
-.special {
-    width: 80rem;
-   
 }
 .spec-img {
     display: flex;
@@ -258,6 +256,10 @@ li a{
     font-size: 14px;
     background-color: white;
 }
+#footerbuttom div{
+    display: flex;
+    align-items: center;
+}
 #footerbuttom p{
     color:#c22504;
 }
@@ -315,53 +317,43 @@ li a{
     font-size: 1rem;
 }
 
-
-@media (max-width:1280px) {
+@media (max-width:1400px) {
     .box1 img {
-        width: 18rem;
+        width: 17rem;
     }
 }
 
-@media (max-width: 480px) {
-    #redstripe{
-        width: 100%;
+@media (max-width:1167px) {
+    .box1 img {
+        width: 13rem;
+        height: 12rem;
     }
-    #redstripLeftBox{
-        width: 100%;
+}
+
+@media (max-width:968px) {
+    .box1 img {
+        width: 10rem;
+        height: 9rem;
     }
+}
+
+@media (max-width:805px) {
+    .spec-img {
+        flex-direction: column;
+    }
+    .box1 img {
+        width: 16rem;
+        height: 11rem;
+    }
+}
+
+@media (max-width:700px) {
     .header-sec1 {
         flex-direction: column;
         padding: 2rem;
         gap: 2rem;
     }
     .sec1-box1{
-        flex-direction: column;
-    }
-    .homepage-navbar {
-        display: none;
-    }
-    .row1 {
-        flex-direction: column;
-        width: 85%;
-        height: 45rem;
-    }
-    .box1, .box2 {
-        width: 22rem;
-        padding-left: 0.5rem;;
-    }
-    .box1 img {
-        height: 10rem;
-        width: 19rem;
-    }
-    .box2 img{
-        height: 10rem;
-        width: 19rem;
-
-    }
-    .special {
-        height: 42rem;
-    }
-    .spec-img {
         flex-direction: column;
     }
     #footertop {
@@ -389,25 +381,26 @@ li a{
     #footermaplogo {
         flex-direction: column;
     }
-    
-  }
-  @media (max-width:360px) {
-    .box1, .box2 {
-        width: 15rem;
-    }
-    .box1 img {
-        height: 10rem;
-        width: 13rem;
-    }
-    .box2 img{
-        height: 10rem;
-        width: 13rem;
+}
 
+
+@media (max-width:450px) {
+    .box1 img {
+        width: 12rem;
+        height: 8rem;
     }
-    
-    #footerbuttom {
-        height: 20vh;
-        padding-left:1.5rem ;
-        gap: 1rem;
+    #footerbuttom div {
+        flex-direction: column;
     }
-  }
+}
+
+@media (max-width:393px) {
+    .row1 {
+        padding: 1rem;
+    }
+
+    .box1 img {
+        width: 13rem;
+        height: 9rem;
+    }
+}

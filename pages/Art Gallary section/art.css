@@ -24,9 +24,11 @@ html,body{
     display: flex;
     justify-content: space-between;   
     padding-right: 2rem;
+    align-items: center;
 }
 .sec1-box1{
     display: flex;
+    align-items: center;
 }
 .header-logo {
     height: 6rem;
@@ -72,14 +74,14 @@ html,body{
     display: flex;
     background-color:#a8dadc;
     /* height: 20rem; */
-    width: 40rem;
+    
     box-shadow: 5px 10px 10px;
     flex-direction: column;
     padding-top: 1rem;
     padding-left: 3rem;
     gap: 1rem;
     padding: 3rem;
-    margin-left: 3rem;
+    margin:auto;
     
 }
 .box1, .box2 p{
@@ -104,10 +106,6 @@ html,body{
   height: 15rem;
   width: 30rem;
 
-}
-.special {
-    width: 80rem;
-   
 }
 .spec-img {
     display: flex;
@@ -305,6 +303,11 @@ li a{
     font-size: 14px;
     background-color: white;
 }
+
+#footerbuttom div{
+    display: flex;
+    align-items: center;
+}
 #footerbuttom p{
     color:#c22504;
 }
@@ -363,12 +366,96 @@ li a{
 }
 
 
-@media (max-width:1280px) {
-    .special {
-        width: 70rem;
+@media (max-width:1400px) {
+    .box1 img {
+        width: 17rem;
     }
-    .spec-img img {
-        height: 15rem;
-        width: 20rem;
+}
+
+@media (max-width:1270px) {
+    .box1 img {
+        width: 12rem;
+    }
+}
+
+@media (max-width:1167px) {
+    .box1 img {
+        width: 13rem;
+        height: 12rem;
+    }
+}
+
+@media (max-width:968px) {
+    .box1 img {
+        width: 10rem;
+        height: 9rem;
+    }
+}
+
+@media (max-width:805px) {
+    .spec-img {
+        flex-direction: column;
+    }
+    .box1 img {
+        width: 16rem;
+        height: 11rem;
+    }
+}
+
+@media (max-width:700px) {
+    .header-sec1 {
+        flex-direction: column;
+        padding: 2rem;
+        gap: 2rem;
+    }
+    .sec1-box1{
+        flex-direction: column;
+    }
+    #footertop {
+        height: 150vh;
+    }
+    #footertopcontent {
+        flex-direction: column;
+    }
+    #footermap {
+        height: 30%;
+        width: 120%;
+        
+    }
+    #footerlogo {
+        width: 40%;
+        height: 30%;
+    }
+    #footermiddle {
+        height: 250vh;
+        
+    }
+    #footermidcontent {
+        flex-direction: column;
+    }
+    #footermaplogo {
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width:450px) {
+    .box1 img {
+        width: 12rem;
+        height: 8rem;
+    }
+    #footerbuttom div {
+        flex-direction: column;
+    }
+}
+
+@media (max-width:393px) {
+    .row1 {
+        padding: 1rem;
+    }
+
+    .box1 img {
+        width: 13rem;
+        height: 9rem;
     }
 }

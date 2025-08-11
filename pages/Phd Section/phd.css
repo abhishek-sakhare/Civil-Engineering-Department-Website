@@ -24,9 +24,11 @@ html,body{
     display: flex;
     justify-content: space-between;   
     padding-right: 2rem;
+    align-items: center;
 }
 .sec1-box1{
     display: flex;
+    align-items: center;
 }
 .header-logo {
     height: 6rem;
@@ -148,10 +150,11 @@ html,body{
     justify-content: center;
 }
 .arjuna-event {
-    padding: 3rem;
+    
     width: 90%;
     background-color:#a8dadc;
     margin: 1rem;
+    margin-top: 1rem;
     padding: 2rem;
     box-shadow: 5px 10px 10px;
     display: flex;
@@ -363,10 +366,143 @@ li a{
     font-size: 1rem;
 }
 
+#footerbuttom div {
+    display: flex;
+    align-items: center;
+}
 
-@media (max-width:1280px) {
+
+@media (max-width:1416px) {
     .research-row img {
-        height: 13rem;
-        width: 20rem;
+        height: 12rem;
+        width: 15rem;
+    }
+}
+
+@media (max-width:1027px) {
+    .research-row {
+        flex-direction: column;
+    }
+    .research-row img {
+        height: 12rem;
+        width: 22rem;
+    }
+
+    .arjuna-event .arjuna-heading {
+        font-size: 1.5rem;
+    }
+    .research-row p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:700px) {
+    .header-sec1 {
+        flex-direction: column;
+        padding: 2rem;
+        gap: 2rem;
+    }
+    .sec1-box1{
+        flex-direction: column;
+    }
+    #footertop {
+        height: 150vh;
+    }
+    #footertopcontent {
+        flex-direction: column;
+    }
+    #footermap {
+        height: 30%;
+        width: 120%;
+        
+    }
+    #footerlogo {
+        width: 40%;
+        height: 30%;
+    }
+    #footermiddle {
+        height: 250vh;
+        
+    }
+    #footermidcontent {
+        flex-direction: column;
+    }
+    #footermaplogo {
+        flex-direction: column;
+    }
+}
+.card-row {
+    display: flex;
+    flex-wrap: wrap; /* Allows cards to wrap to next line */
+    gap: 3rem;
+    justify-content: center; /* Center the cards when wrapping */
+}
+
+@media (max-width:530px) {
+    .research-row img {
+        height: 10rem;
+        width: 16rem;
+    }
+}
+
+@media (max-width:453px) {
+    .arjuna-event {
+        margin: -1rem;
+    }
+    .container {
+        margin: 4rem;
+        margin-left: -1rem;
+    }
+    #footerbuttom div {
+        flex-direction: column;
+    }
+}
+
+/* For small screens */
+@media (max-width: 440px) {
+    .container {
+        width: 100%;
+       
+        padding: 10px;
+    }
+
+    .card {
+        width: 100%; /* Make card take full width */
+        max-width: 300px; /* Keep it readable */
+    }
+
+    .profile-img {
+        width: 150px;
+        height: 150px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    h5, p {
+        font-size: 14px;
+    }
+
+    .card-row {
+        gap: 1rem; /* Reduce space between cards */
+    }
+}
+
+@media (max-width:417px) {
+    .research-row img {
+        height: 8rem;
+        width: 14rem;
+    }
+}
+
+@media (max-width:386px) {
+    .arjuna-event {
+        margin: -2rem;
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .container {
+        margin-left: -2rem;
     }
 }

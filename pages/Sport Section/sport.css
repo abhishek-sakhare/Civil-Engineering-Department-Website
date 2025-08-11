@@ -24,9 +24,11 @@ html,body{
     display: flex;
     justify-content: space-between;   
     padding-right: 2rem;
+    align-items: center;
 }
 .sec1-box1{
     display: flex;
+    align-items: center;
 }
 .header-logo {
     height: 6rem;
@@ -112,7 +114,8 @@ html,body{
     
     width: 90%;
     background-color:#a8dadc;
-    margin: 5rem;
+    margin: auto;
+    margin-bottom: 5rem;
     padding: 4rem;
     box-shadow: 5px 10px 10px;
     display: flex;
@@ -327,9 +330,93 @@ li a{
     font-size: 1rem;
 }
 
+#footerbuttom div {
+    display: flex;
+    align-items: center;
+}
 
-@media (max-width:1280px) {
-    .research-row img{
+
+@media (max-width:1467px) {
+    .research-row img {
         width: 20rem;
+    }
+
+}
+
+@media (max-width:1190px) {
+    .research-row {
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width:807px) {
+    .advisor-row, .captain-row {
+        gap: 10rem;
+    }
+
+    .research-row p {
+        font-size: 1rem;
+    }
+
+    .arjuna-event .arjuna-heading {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width:594px) {
+    .advisor-row, .captain-row {
+        gap: 5rem;
+    }
+}
+
+
+
+@media (max-width:700px) {
+    .header-sec1 {
+        flex-direction: column;
+        padding: 2rem;
+        gap: 2rem;
+    }
+    .sec1-box1{
+        flex-direction: column;
+    }
+    #footertop {
+        height: 150vh;
+    }
+    #footertopcontent {
+        flex-direction: column;
+    }
+    #footermap {
+        height: 30%;
+        width: 120%;
+        
+    }
+    #footerlogo {
+        width: 40%;
+        height: 30%;
+    }
+    #footermiddle {
+        height: 250vh;
+        
+    }
+    #footermidcontent {
+        flex-direction: column;
+    }
+    #footermaplogo {
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width:512px) {
+    .advisor-row, .captain-row {
+        flex-direction: column;
+    }
+}
+
+@media (max-width:455px) {
+    #footerbuttom div {
+        flex-direction: column;
     }
 }

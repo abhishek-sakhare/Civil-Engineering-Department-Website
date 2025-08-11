@@ -24,9 +24,11 @@ html,body{
     display: flex;
     justify-content: space-between;   
     padding-right: 2rem;
+    align-items: center;
 }
 .sec1-box1{
     display: flex;
+    align-items: center;
 }
 .header-logo {
     height: 6rem;
@@ -126,13 +128,12 @@ html,body{
 .box1, .box2 {
     display: flex;
     background-color:#a8dadc;
-    /* height: 20rem;
-    width: 40rem; */
+   
     padding: 3rem;
     box-shadow: 5px 10px 10px;
     flex-direction: column;
     padding-top: 1rem;
-    padding-left: 3rem;
+    
     gap: 1rem;
     
 }
@@ -147,9 +148,16 @@ html,body{
   -moz-box-shadow: 3px 3px 1px black;
 
   height: 15rem;
-  width: 30rem;
+  width: 20rem;
 
 }
+
+.agomoni-row {
+    width: 90%;
+}
+
+
+
 .box2 img {
     box-shadow: 3px 3px 1px black;
   -webkit-box-shadow: 3px 3px 1px black;
@@ -158,10 +166,6 @@ html,body{
   height: 15rem;
   width: 30rem;
 
-}
-.special {
-    width: 80rem;
-   
 }
 .spec-img {
     display: flex;
@@ -372,74 +376,74 @@ li a{
     font-size: 1rem;
 }
 
-
-@media (max-width:1280px) {
-    .row1 {
-        padding: 2rem;
-    }
-    .box1 img {
-        height: 12rem;
-        width: 25rem;
-    }
-    .box2 img {
-        height: 12rem;
-        width: 25rem;
-    }
-    .special {
-        width: 70rem;
-    }
-    .birthday img {
-        width: 18rem;
-    }
-    .double {
-        /* padding: 1rem; */
-        width: 90%;
-    }
-    /* .dbl-bx-1, .dbl-bx-2 {
-        padding: 0.5rem;
-    } */
+#footerbuttom div {
+    display: flex;
+    align-items: center;
 }
 
-@media (max-width: 480px) {
-    #redstripe{
-        width: 100%;
+
+@media (max-width:1496px) {
+    .birthday-row {
+        width: 90%;
     }
-    #redstripLeftBox{
-        width: 100%;
+    .birthday-row img {
+        width: 20rem;
     }
+}
+
+@media (max-width:1387px) {
+    .double {
+        flex-direction: column;
+        margin: auto;
+    }
+    .row1 img {
+        width: 15rem;
+        height: 10rem;
+    }
+}
+
+@media (max-width:1120px) {
+    .advisor-row {
+        gap: 10rem;
+    }
+    .captain-row {
+        gap: 10rem;
+    }
+    .indi-row {
+        width: 80%;
+    }
+}
+
+@media (max-width:966px) {
+    .advisor-row {
+        flex-direction: column;
+
+    }
+    .captain-row {
+        flex-direction: column;
+    }
+}
+
+@media (max-width:856px) {
+    .row1 {
+        width: 80%;
+    }
+}
+
+@media (max-width:1090px) {
+    .spec-img {
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width:700px) {
     .header-sec1 {
         flex-direction: column;
         padding: 2rem;
         gap: 2rem;
     }
     .sec1-box1{
-        flex-direction: column;
-    }
-    .homepage-navbar {
-        display: none;
-    }
-    .row1 {
-        flex-direction: column;
-        width: 85%;
-        height: 45rem;
-    }
-    .box1, .box2 {
-        width: 22rem;
-        padding-left: 0.5rem;;
-    }
-    .box1 img {
-        height: 10rem;
-        width: 19rem;
-    }
-    .box2 img{
-        height: 10rem;
-        width: 19rem;
-
-    }
-    .special {
-        height: 42rem;
-    }
-    .spec-img {
         flex-direction: column;
     }
     #footertop {
@@ -467,25 +471,40 @@ li a{
     #footermaplogo {
         flex-direction: column;
     }
-    
-  }
-  @media (max-width:360px) {
-    .box1, .box2 {
-        width: 15rem;
-    }
-    .box1 img {
-        height: 10rem;
-        width: 13rem;
-    }
-    .box2 img{
-        height: 10rem;
-        width: 13rem;
+}
 
+
+@media (max-width:557px) {
+    .box1 {
+        padding: 2rem;
     }
-    
-    #footerbuttom {
-        height: 20vh;
-        padding-left:1.5rem ;
-        gap: 1rem;
+    .captain-row {
+        gap: 5rem;
     }
-  }
+}
+
+@media (max-width:530px) {
+    .row1 {
+        padding: 2rem;
+    }
+}
+
+@media (max-width:444px) {
+    .row1 {
+        width: 90%;
+    }
+}
+
+@media (max-width:450px) {
+    #footerbuttom div {
+    flex-direction: column;
+    }
+
+}
+
+@media (max-width:400px) {
+    .row1 img {
+        width: 12rem;
+        height: 8rem;
+    }
+}
