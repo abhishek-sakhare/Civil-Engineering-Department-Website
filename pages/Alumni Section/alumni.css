@@ -61,6 +61,73 @@ html,body{
 
 /* Content Section */
 
+/*2022-2026 batch data*/
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #457b9d;
+    width: 90%;
+    box-shadow: 5px 10px 10px;
+    margin: 2rem;
+    margin-left: 1rem;
+  }
+  
+  .card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 20px;
+    width: 250px;
+  }
+  .card-row {
+    display: flex;
+    gap: 3rem;
+  }
+  .profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    /* margin: 10px 0; */
+  }
+  h5 {
+    margin-bottom:10px;
+  }
+  .role {
+    color: #d32f2f;
+    font-weight: bold;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  
+  .social-links a {
+    font-family: "FontAwesome";
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .social-links a:hover {
+    color: #d32f2f;
+  }
+
 
 .alumni-heading {
     margin-left: 5rem;
